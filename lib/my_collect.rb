@@ -3,7 +3,7 @@ i = 0
 first_names = []
 while i < collection.length
 first_names << yield(collection[i])
-first_names.split(" ").first
+first_names.first
 i += 1
 end
 first_names
